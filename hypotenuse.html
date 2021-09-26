@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz | Fun with Triangles</title>
+    
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <ul class="list-non-bullets right">
+                <li class="list-item-inline ">
+                    <a class="link" href="/">Is Triangle?</a>
+                </li>
+                <li class="list-item-inline ">
+                    <a class="link link-active" href="quiz.html">Quiz</a>
+                </li>
+                <li class="list-item-inline ">
+                    <a class="link" href="">Hypotenuse</a>
+                </li>
+                <li class="list-item-inline ">
+                    <a class="link" href="">Area</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="input-sec">
+            <div class="nav-title">Triangle Quiz</div>
+
+            <form class="triangle-quiz">
+                <div class="question-container">
+                    <p>What is the third angle for the triangle where angle1 = 45° and
+                        angle2 = 45°?</p>
+                   <label><input type="radio" class="secondary-input" name="question1" value="45°">45°</label> 
+                   <label><input type="radio" class="secondary-input" name="question1" value="90°">90°</label>
+                   <label><input type="radio" class="secondary-input" name="question1" value="60°">60°</label>
+                </div>
+              
+
+                <div class="question-container">
+                    <p>Which of the following angles form an isosceles triangle? </p>
+                   <label><input type="radio" class="secondary-input" name="question2" value="40°, 110°, 30°">40°, 110°, 30° </label> 
+                   <label><input type="radio" class="secondary-input" name="question2" value="90°, 60°, 30°">90°, 60°, 30°</label>
+                   <label><input type="radio" class="secondary-input" name="question2" value="70°, 40°, 70°">70°, 40°, 70°</label>
+                </div>
+            </form>
+            <button id="btn-check">Submit</button>
+            
+            <div class="error-handler"></div>
+            <div class="output"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-head">about</div>
+        <p></p>
+    </footer>
+</body>
+<script src="quiz.js"></script>
+</html>
