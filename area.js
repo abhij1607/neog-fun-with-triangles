@@ -22,7 +22,7 @@ function validate(a,b,area){
     } else if(a<1||b<1){
         showError("Please enter value greater than zero");
     }   else{
-        showOutput("Hypotenuse for given length of side is " + area);
+        showOutput("Area for the given triangle parameters is" + area);
     }
 }
 
